@@ -1,43 +1,26 @@
 .container{
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    background-color: aqua;
-    height: 200px;
-    row-gap: 1px;
-    column-gap: 6px;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-   
+    margin: 20px;
+    padding: 0px 200px 0px 200px;
 }
-div{
- background-color: white;   
- height: 40px;
- width: 40px;
- text-align: center;
-}
-h1{
-    text-align: center;
-   
-   
-}
-.inp{
-    padding-left: px;
-    width: 120px;
-    align-items: center;
-
-}
-#red{
-   background-color: red;
-}
-input{
-    padding-left: 20px;
-    text-align: center;
-    align-items: center;
-    
+.num{
+    width: 50px;
+    height: 50px;
+    background-color: white;
 }
 form{
-    padding-left: 70px;
+    background-color: aqua;
+    height: 420px;
+    width: 350px;
+    padding: 5px;
+    text-align: center;
+    align-items: center;
+}
+    
+
+.button{
+    background-color: red;
+    width: 50px;
+    height: 50px;
 }
 
 
